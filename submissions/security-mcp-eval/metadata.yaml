@@ -13,7 +13,7 @@ gate_policy:
   push_facts:
     endpoint: https://compass.stage.redhat.com/api/soundcheck/facts/
     entity_ref: mcpserver:redhat/security-mcp-server
-    fact_ref_prefix: abevalflow:
+    fact_ref_prefix: "abevalflow:"
     bearer_token: ${COMPASS_API_TOKEN}
   gates:
     evaluation:
